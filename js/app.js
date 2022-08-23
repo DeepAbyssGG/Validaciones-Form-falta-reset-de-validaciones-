@@ -79,3 +79,18 @@ let reseteoDatosForm = document.querySelector("#resetForm");
 reseteoDatosForm.className = "form-control"
 
 
+function limpiarFormulario(){
+formGeneraciones.reset(); //limpia los value de todo lo que hay en el form
+
+  //hacer un bucle tomar cada input y className='form-control'
+}
+
+ //limpia los value de todo lo que hay en el fomr
+  // hacer un bucle, tomar cada input y cambiar el className='form-control'
+//   let arrayInput = document.getElementsByTagName("input");
+//   // let selectGenero = document.querySelector("#genero");
+//   // selectGenero.className = "form-control";
+//   for (let i = 0; i < arrayInput.length; i++) {
+//     arrayInput[i].className = "form-control";
+//   }
+
